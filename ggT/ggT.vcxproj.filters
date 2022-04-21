@@ -21,9 +21,24 @@
     <ClCompile Include="ggT.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
+    <ClCompile Include="vigenere_code.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="frequency_analysis.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ggT.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="utility.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="vigenere_code.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="frequency_analysis.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
   </ItemGroup>
