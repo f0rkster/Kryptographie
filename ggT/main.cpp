@@ -6,6 +6,11 @@
 #include "vigenere_code.h"
 #include "utility.h"
 
+/*
+lesson 1 = ggT
+lesson 2 = vigenere_code + frequency_analysis
+*/
+
 int main() {
 	std::cout << "ggT = " << ggT(93, 42) << std::endl;
 
