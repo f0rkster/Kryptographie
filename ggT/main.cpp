@@ -6,11 +6,13 @@
 #include "vigenere_code.h"
 #include "blumblumshub.h"
 #include "utility.h"
+#include "permutation.h"
 
 /*
 lesson 1 = ggT
 lesson 2 = vigenere_code + frequency_analysis
 lesson 3 = blumblumshub
+lesson 4 = permutation
 */
 
 int main() {
@@ -31,6 +33,14 @@ int main() {
 	q = 67;
 	s = 6;
 	blumblumshub(p, q, s);
+
+
+	std::string input64 = "0000000100100011010001010110011110001001101010111100110111101111";
+	std::string key64   = "0001001100110100010101110111100110011011101111001101111111110001";
+
+	std::string permutation= "0000000000000000000000000000000000000000000000000000000000000000";
+		
+	startPermutation(input64, permutation);
 
 	return 1;
 }
