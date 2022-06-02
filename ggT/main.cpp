@@ -7,12 +7,16 @@
 #include "blumblumshub.h"
 #include "utility.h"
 #include "permutation.h"
+#include "rsa.h"
+#include "chp_hash.h"
 
 /*
 lesson 1 = ggT
 lesson 2 = vigenere_code + frequency_analysis
 lesson 3 = blumblumshub
 lesson 4 = permutation
+lesson 5 = RSA
+lesson 6 = CHP-Hash
 */
 
 int main() {
@@ -35,12 +39,21 @@ int main() {
 	blumblumshub(p, q, s);
 
 
-	std::string input64 = "0000000100100011010001010110011110001001101010111100110111101111";
-	std::string key64   = "0001001100110100010101110111100110011011101111001101111111110001";
+	permutation();
 
-	std::string permutation= "0000000000000000000000000000000000000000000000000000000000000000";
-		
-	startPermutation(input64, permutation);
+	p = 13;
+	q = 23;
+	int M = 212;
+
+	RSA(p, q, M);
+
+	p = 12347;
+	float alpha = 2;
+	float beta = 8461;
+
+	CHP_hash(p, alpha, beta);
+	
+
 
 	return 1;
 }

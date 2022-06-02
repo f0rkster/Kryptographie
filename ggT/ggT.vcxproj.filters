@@ -27,6 +27,18 @@
     <ClCompile Include="frequency_analysis.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
+    <ClCompile Include="blumblumshub.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="permutation.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="rsa.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="chp_hash.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ggT.h">
@@ -39,6 +51,18 @@
       <Filter>Headerdateien</Filter>
     </ClInclude>
     <ClInclude Include="frequency_analysis.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="blumblumshub.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="permutation.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="rsa.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="chp_hash.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
   </ItemGroup>

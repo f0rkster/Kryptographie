@@ -124,14 +124,22 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="blumblumshub.cpp" />
+    <ClCompile Include="chp_hash.cpp" />
     <ClCompile Include="frequency_analysis.cpp" />
     <ClCompile Include="ggT.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="permutation.cpp" />
+    <ClCompile Include="rsa.cpp" />
     <ClCompile Include="vigenere_code.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="blumblumshub.h" />
+    <ClInclude Include="chp_hash.h" />
     <ClInclude Include="frequency_analysis.h" />
     <ClInclude Include="ggT.h" />
+    <ClInclude Include="permutation.h" />
+    <ClInclude Include="rsa.h" />
     <ClInclude Include="utility.h" />
     <ClInclude Include="vigenere_code.h" />
   </ItemGroup>
